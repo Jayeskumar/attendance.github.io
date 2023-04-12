@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Attendance Tracking System</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Attendance Tracking System</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+	<section>
+		<h2>Enter Attendance</h2>
+		<form>
+			<label for="student-name">Student Name:</label>
+			<input type="text" id="student-name" name="student-name" required>
+
+			<label for="student-id">Student ID:</label>
+			<input type="text" id="student-id" name="student-id" required>
+
+			<label for="class-date">Class Date:</label>
+			<input type="date" id="class-date" name="class-date" required>
+
+			<label for="attendance-status">Attendance Status:</label>
+			<select id="attendance-status" name="attendance-status">
+				<option value="present">Present</option>
+				<option value="absent">Absent</option>
+				<option value="late">Late</option>
+			</select>
+
+			<button type="submit">Submit</button>
+		</form>
+	</section>
+
+	<footer>
+		<p>Copyright &copy; 2023
+		Muthayammal Engineering College</p>
+	</footer>
+</body>
+</html>
