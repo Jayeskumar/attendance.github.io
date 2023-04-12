@@ -1,0 +1,146 @@
+/* Global Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+	background-color: #2ECC71;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 36px;
+}
+
+/* Navigation Styles */
+nav {
+	background-color: #3498DB;
+	color: #FFF;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FF0;
+}
+
+/* Hero Section Styles */
+.hero {
+	background-color: #F1C40F;
+	padding: 50px;
+	text-align: center;
+	color: #FFF;
+}
+
+.hero h2 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+.hero p {
+	font-size:21 px
+}
+/* About Section Styles */
+.about {
+background-color: #FFF;
+padding: 50px;
+text-align: center;
+}
+
+.about h2 {
+font-size: 36px;
+margin-bottom: 10px;
+}
+
+.about p {
+font-size: 18px;
+line-height: 1.5;
+}
+
+/* Courses Section Styles */
+.courses {
+background-color: #F9EBEA;
+padding: 50px;
+text-align: center;
+}
+
+.courses h2 {
+font-size: 36px;
+margin-bottom: 10px;
+}
+
+.courses ul {
+list-style-type: none;
+font-size: 18px;
+line-height: 1.5;
+}
+
+.courses li {
+margin: 10px 0;
+}
+
+/* Faculty Section Styles */
+.faculty {
+background-color: #FFF;
+padding: 50px;
+text-align: center;
+}
+
+.faculty h2 {
+font-size: 36px;
+margin-bottom: 10px;
+}
+
+.faculty ul {
+list-style-type: none;
+font-size: 18px;
+line-height: 1.5;
+}
+
+.faculty li {
+margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+background-color: #2C3E50;
+color: #FFF;
+padding: 10px;
+text-align: center;
+}
+
+footer p {
+font-size: 14px;
+}
+
+footer a {
+color: #FFF;
+text-decoration: none;
+}
+
+footer a:hover {
+color: #FF0;
+}
